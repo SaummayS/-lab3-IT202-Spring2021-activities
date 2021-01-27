@@ -11,11 +11,14 @@
 					//h1.innerText = "Central NGC 1316: After Galaxies Collide"
 					h1.innerText = json.title
 					let img = document.createElement("img")
-					//img.innerText = "https://apod.nasa.gov/apod/image/2101/NGC1316Center_HubbleNobre_2585.jpg"
 					//img.innerText = json.hdurl
 					img.setAttribute("src", json.hdurl)
 					let p = document.createElement("p")
 				    p.innerText = json.explanation
+	                            //To view :-
+	                            //document.body.append(h1)
+				    //document.body.append(img)
+				    //document.body.append(p)
 				});
   </script>
   </html>
